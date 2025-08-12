@@ -7,96 +7,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 <style>
     * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
-    body { background-color: #0d0d0d; color: white; }
-    header { display: flex; justify-content: space-between; align-items: center; padding: 20px 50px; position: fixed; width: 100%; background: rgba(0,0,0,0.7); z-index: 999; }
-    header h1 { font-size: 1.5rem; background: linear-gradient(90deg, #ff00ff, #00ffff); -webkit-background-clip: text; color: transparent; }
-    nav a { margin: 0 15px; text-decoration: none; color: white; font-weight: 500; transition: color 0.3s; }
-    nav a:hover { color: #00ffff; }
-    .hero { display: flex; align-items: center; justify-content: center; min-height: 100vh; padding-top: 80px; }
-    .hero-content { flex: 1; padding: 20px 50px; }
-    .hero-content h2 { font-size: 2.5rem; }
-    .hero-content h2 span { background: linear-gradient(90deg, #ff00ff, #00ffff); -webkit-background-clip: text; color: transparent; }
-    .hero-content p { margin-top: 20px; font-size: 1.1rem; color: #cccccc; }
-    .hero img { flex: 1; max-width: 400px; border-radius: 20px; border: 3px solid #00ffff; }
-    section { padding: 80px 50px; max-width: 1200px; margin: auto; }
-    h2.section-title { text-align: center; font-size: 2rem; margin-bottom: 50px; position: relative; }
-    h2.section-title::after { content: ''; width: 60px; height: 3px; background: linear-gradient(90deg, #ff00ff, #00ffff); display: block; margin: 10px auto 0; }
-    .skills, .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
-    .card { background: #1a1a1a; padding: 20px; border-radius: 15px; text-align: center; transition: all 0.3s ease; border: 2px solid transparent; }
-    .card:hover { border: 2px solid #00ffff; box-shadow: 0 0 20px rgba(0,255,255,0.5); transform: translateY(-5px); }
-    .projects img { width: 100%; border-radius: 10px; margin-bottom: 10px; }
-    form { display: flex; flex-direction: column; gap: 15px; max-width: 500px; margin: auto; }
-    input, textarea { padding: 10px; border-radius: 8px; border: none; font-size: 1rem; }
-    button { padding: 10px; background: linear-gradient(90deg, #ff00ff, #00ffff); border: none; color: white; font-size: 1rem; cursor: pointer; border-radius: 8px; }
-    button:hover { opacity: 0.8; }
-    footer { text-align: center; padding: 20px; font-size: 0.9rem; color: #aaa; background: #111; margin-top: 50px; }
-    @media(max-width: 768px) {
-        .hero { flex-direction: column; text-align: center; }
-        .hero img { margin-top: 20px; }
-        .hero img {
-    flex: 1;
-    max-width: 400px;
-    border-radius: 50%;
-    border: 3px solid #00ffff;
-    object-fit: cover;
-}
-
-    }
-</style>
-</head>
-<body>
-
-<header>
-    <h1>Harikrishnan</h1>
-    <nav>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
-
-<section class="hero">
-    <div class="hero-content">
-        <h2>Hello, I'm <span>Harikrishnan</span></h2>
-        <p>MCA Graduate | Developer | Creative Problem Solver</p>
-    </div>
-    <img src="hari.jpeg" alt="Harikrishnan">
-</section>
-
-<section id="skills">
-    <h2 class="section-title">Skills</h2>
-    <div class="skills">
-        <div class="card">C</div>
-        <div class="card">C++</div>
-        <div class="card">PHP</div>
-        <div class="card">MySQL</div>
-        <div class="card">JavaScript</div>
-        <div class="card">React</div>
-        <div class="card">HTML & CSS</div>
-        <div class="card">Git & GitHub</div>
-    </div>
-</section>
-
-<section id="projects">
-    <h2 class="section-title">Projects</h2>
-    <div class="projects">
-        <div class="card">
-            <img src="https://via.placeholder.com/300x200" alt="Project 1">
-            <h3>Project One</h3>
-            <p>Task management system built with PHP and MySQL.</p>
-        </div>
-        <div class="card">
-            <img src="https://via.placeholder.com/300x200" alt="Project 2">
-            <h3>Project Two</h3>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Harikrishnan | Portfolio</title>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-<style>
-    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
     body { background-color: #0d0d0d; color: white; line-height: 1.6; }
     header {
         display: flex; justify-content: space-between; align-items: center;
@@ -288,14 +198,15 @@
     <div class="projects">
         <div class="card">
             <a href="https://harikrishnan2802.github.io/myportfolio/" target="_blank">
-            <img src="project1.png" alt="Project 1">
-            </a>
-            <h3>Project Two</h3>
-            <p>React portfolio with animations and responsive design.</p>
+                <img src="project1.png" alt="Project 1">
+                </a>
+                <h3>Project Two</h3>
+                <p>React portfolio with animations and responsive design.</p>
         </div>
         <div class="card">
-            <img src="https://via.placeholder.com/300x200" alt="Project 2">
-            
+            <a href="https://exampleproject2.com" target="_blank">
+                <img src="https://via.placeholder.com/300x200" alt="Project 2">
+            </a>
         </div>
     </div>
 </section>
@@ -308,7 +219,7 @@
         <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
         
         <!-- Optional: Redirect after submit -->
-        <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
+        <input type="hidden" name="_next" value="https://harikrishnan2802.github.io/myportfolio/">
         
         <button type="submit">Send Message</button>
 </section>
@@ -319,25 +230,3 @@
 
 </body>
 </html>
-            <p>React portfolio with animations and responsive design.</p>
-        </div>
-    </div>
-</section>
-
-<section id="contact">
-    <h2 class="section-title">Contact Me</h2>
-    <form action="https://formspree.io/f/your-form-id" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-        <button type="submit">Send Message</button>
-    </form>
-</section>
-
-<footer>
-    <p>© 2025 Harikrishnan | All Rights Reserved</p>
-</footer>
-
-</body>
-</html>
-
